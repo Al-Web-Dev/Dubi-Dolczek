@@ -1,0 +1,43 @@
+body, html {
+    color: #ffbc00;
+    background-image: url("../assets/space-backdorp-dubi.jpg");
+    margin: 0;
+    padding: 0;
+}
+
+
+#page {
+    max-width: 1000px;
+    min-width: 720px;
+    height: 100%;
+    margin: 36px auto 10px auto;
+    padding: 20px;
+    border: 4px double #9e4e16;
+    border-radius: 20px;
+    background-color: black;
+}
+
+#logo {
+    margin: 10px auto 25px auto;
+    width: 570px;
+    border: 0px solid #9e4e16;
+    text-align: center;
+    border-radius: 20px;
+    font-family: 'Monoton', cursive;
+    padding: 0px auto 25px auto;
+}
+
+ul {
+    margin: 0px auto;
+    padding-left: 0px;
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: helvetica, arial;
+    letter-spacing: 2px;
+}
+
+li {
+    display: inline;  
+    margin: 0px 3px;
+}
+
