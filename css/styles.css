@@ -1,6 +1,10 @@
 body, html {
     color: #ffbc00;
     background-image: url("../assets/space-backdorp-dubi.jpg");
+    background-position: fixed;  
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
     margin: 0;
     padding: 0;
 }
@@ -9,7 +13,6 @@ body, html {
 #page {
     max-width: 1000px;
     min-width: 720px;
-    height: 100%;
     margin: 36px auto 10px auto;
     padding: 20px;
     border: 4px double #9e4e16;
@@ -31,9 +34,10 @@ ul {
     margin: 0px auto;
     padding-left: 0px;
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 12px;
     font-family: helvetica, arial;
-    letter-spacing: 2px;
+    letter-spacing: 6px;
+    font-weight: 600;
 }
 
 li {
