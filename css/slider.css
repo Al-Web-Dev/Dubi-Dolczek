@@ -1,6 +1,6 @@
 /********** SLIDER **********/
 .slider {
-  max-width: 940px;
+  max-width: 950px;
   min-width: 720px;
   margin: 30px auto 30px auto;
 }
@@ -8,8 +8,9 @@
 .slide-viewer {
     position: relative; /* needed for IE7 */
     overflow: hidden;
-    height: 430px;
+    height: 510px;
     border-radius: 20px;
+    border: 4px double #9e4e16;
 }
 
 .slide-group {
