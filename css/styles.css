@@ -22,7 +22,6 @@ body, html {
 
 #logo {
     margin: 10px auto 25px auto;
-    
     border: 0px solid #9e4e16;
     text-align: center;
     border-radius: 20px;
@@ -64,8 +63,12 @@ li {
 }
 
 
- .music-buttons img {
-    height: 40px;
-    width: 40px;
+ .music-buttons {
+    height: 48px;
+    width: 44px;
+    background: url(../assets/play-button-sprite.png) 0px 0px no-repeat;
+    cursor: pointer;
+
+
 }
 
