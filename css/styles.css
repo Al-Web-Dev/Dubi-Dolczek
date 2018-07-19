@@ -67,7 +67,6 @@ li {
 
 .row {
     display: flex;
-    align-items: center;
     justify-content: space-around;
 }
 
@@ -77,6 +76,8 @@ li {
     line-height: 26px;
     
 }
+
+
 
 .music-player {
     border: 1px solid #9e4e16;
@@ -110,4 +111,19 @@ li {
     color: #ff5b3f;
 }
 
+@media only screen and (max-width: 759px) {
+    .row {
+        flex-direction: column;
+    }
+    .column {
+        width: 100%;
+    }
+}
+
+.gallery {
+    display: flex;
+    max-width: 950px;
+    min-width: 720px;
+    margin: 0 auto;
+}
 
