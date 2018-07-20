@@ -12,7 +12,6 @@ body, html {
 a {
     text-decoration: none;
     color: inherit;
-
 }
 
 a:hover {
@@ -23,7 +22,7 @@ a:hover {
 
 #page {
     max-width: 950px;
-    min-width: 720px;
+    min-width: 0px;
     margin: 36px auto 10px auto;
     padding: 20px;
     border: 4px double #9e4e16;
@@ -43,6 +42,8 @@ a:hover {
     font-family: 'Monoton', cursive;
     padding: 0px auto 25px auto;
 }
+
+
 
 ul {
     margin: 0px auto;
@@ -118,6 +119,21 @@ li {
     .column {
         width: 100%;
     }
+    .slider {
+        display: none;
+    }
+
+    .mobile {
+    position: relative; /* needed for IE7 */
+    height: 510px;
+    border-radius: 20px;
+    border: 4px double #9e4e16;
+    background-image: url(../assets/dubi-triptic-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 0px;
+    width: 100%;
+    }
 }
 
 .gallery {
@@ -126,4 +142,14 @@ li {
     min-width: 720px;
     margin: 0 auto;
 }
+
+.contact p {
+    
+    font-family: helvetica, arial;
+    letter-spacing: 5px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
 

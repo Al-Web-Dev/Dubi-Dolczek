@@ -1,18 +1,18 @@
 /********** SLIDER **********/
 .slider {
   max-width: 950px;
-  min-width: 720px;
+  min-width: 300px;
   margin: 30px auto 30px auto;
 }
 
 .slide-viewer {
     position: relative; /* needed for IE7 */
-    overflow: hidden;
+    
     height: 510px;
     border-radius: 20px;
     border: 4px double #9e4e16;
-   
-
+    background-image: url(../assets/dubi-triptic.jpg);
+    background-repeat: no-repeat;
 }
 
 .slide-group {
